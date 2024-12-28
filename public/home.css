@@ -1,0 +1,198 @@
+body {
+    background: linear-gradient(to right, lightblue, rgb(135, 135, 248));
+}
+
+
+.container-fluid {
+    display: block;
+    width: 100%;
+}
+
+.navbar-center {
+    padding-left: 12%;
+}
+
+ul li {
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.bi-person-circle {
+    font-size: 40px;
+}
+
+.dash {
+    text-transform: capitalize;
+}
+
+.card {
+    display: block;
+    margin: auto;
+    padding-bottom: 5%;
+    width: fit-content;
+    height: fit-content;
+}
+
+.card-img-top {
+
+    width: 100px;
+    display: block;
+    margin: auto;
+}
+
+.form-select {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+.alert {
+    display: block;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 1%;
+}
+.card,
+.alert {
+    display: block;
+    margin: auto;
+    padding-bottom: 5%;
+    width: fit-content;
+    height: fit-content;
+}
+
+
+th,
+td {
+    border: 2px solid black;
+}
+
+td {
+    font-size: 15px;
+    color: white;
+}
+
+.theading th {
+    background-color: lightgreen;
+    color: white;
+    /* max-width: fit-content; */
+}
+
+.theading {
+    text-transform: capitalize;
+}
+
+.find {
+    width: 200px;
+    position: absolute;
+    right: 7%
+}
+
+@media screen and (max-width: 600px) {
+    .navbar-center {
+        padding-left: 0;
+    }
+}
+
+
+@media (min-width: 250px) and (max-width: 345px) {
+    .table>div {
+        flex: 1 1 100%;
+    }
+
+    th,
+    td {
+        border: 1px solid black;
+        font-size: 6px;
+    }
+
+    .find {
+        width: 90px;
+        position: absolute;
+        right: 14%;
+        font-size: 12px;
+    }
+
+    .subfind {
+        font-size: 12px;
+        width: fit-content;
+
+    }
+}
+
+@media (min-width: 350px) and (max-width: 450px) {
+    .table>div {
+        flex: 1 1 100%;
+    }
+
+    th,
+    td {
+        border: 1px solid black;
+        font-size: 8px;
+    }
+
+    .find {
+        width: 90px;
+        position: absolute;
+        right: 14%;
+        font-size: 12px;
+    }
+
+    .subfind {
+        font-size: 12px;
+        width: fit-content;
+
+    }
+}
+
+@media (min-width: 450px) and (max-width: 599px) {
+    .table>div {
+        flex: 1 1 100%;
+    }
+
+    th,
+    td {
+        border: 1px solid black;
+        font-size: 8px;
+    }
+
+    .find {
+        width: 90px;
+        position: absolute;
+        right: 14%;
+        font-size: 12px;
+    }
+
+    .subfind {
+        font-size: 12px;
+        width: fit-content;
+
+    }
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+    .table>div {
+        flex: 1 1 100%;
+    }
+
+    th,
+    td {
+        border: 1px solid black;
+        font-size: 12px;
+    }
+
+    .find {
+        width: 90px;
+        position: absolute;
+        right: 14%;
+        font-size: 12px;
+    }
+
+    .subfind {
+        font-size: 12px;
+        width: fit-content;
+
+    }
+}
